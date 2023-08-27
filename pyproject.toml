@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pes-aplicacoes-ml-desafio6"
+version = "0.1.0"
+description = ""
+authors = ["Lucas Olini <lucasolini96@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pes_aplicacoes_ml_desafio6"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.0.3"
+matplotlib = "^3.7.2"
+seaborn = "^0.12.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
