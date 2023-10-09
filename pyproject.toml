@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "pes-aplicacoes-ml-desafio6"
+name = "walmart-store-sales-prediction"
 version = "0.1.0"
 description = ""
 authors = ["Lucas Olini <lucasolini96@gmail.com>"]
 readme = "README.md"
-packages = [{include = "pes_aplicacoes_ml_desafio6"}]
+packages = [{include = "walmart_store_sales_prediction"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
